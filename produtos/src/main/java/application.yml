@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://Localhost:5432/crud
+    username: postgres
+    password: postgres
+
+springdoc:
+  swagger-ui:
+    path: /documentacao
+  api-docs:
+    path: /api-docs
